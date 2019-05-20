@@ -6,7 +6,7 @@ Este é o projeto final do nanodegree de full stack web developer
 Aqui vemos como configurar corretamente uma distribuição linux,  instalar e configurar um servidor web para servir uma aplicação web
 - A distribuição linux é [Ubuntu](https://www.ubuntu.com/download/server) 16.04 LTS.
 - A vps é [Amazon Lighsail](https://lightsail.aws.amazon.com/).
-- A aplicação é  [Restaurant Menu App](https://github.com/LorenzoTomaz/Restaurant-Menu-App) created earlier in this Nanodegree program.
+- A aplicação é  [Restaurant Menu App](https://github.com/LorenzoTomaz/Restaurant-Menu-App).
 - O DB é [PostgreSQL](https://www.postgresql.org/).
 - Minha máquina local roda Ubuntu 18.04
 
@@ -22,8 +22,8 @@ O endereço da aplicação é http://100.24.107.188.xip.io.
 - Clique em `Create` para criar uma instância.
 
 
-**Reference**
-- ServerPilot, [Como criar um server na Amazon Lightsail](https://serverpilot.io/community/articles/how-to-create-a-server-on-amazon-lightsail.html).
+**Referência**
+- [Como criar um server na Amazon Lightsail](https://serverpilot.io/community/articles/how-to-create-a-server-on-amazon-lightsail.html).
 
 
 ### 2: Conecte-se com a VPS com SSH
@@ -97,9 +97,9 @@ sudo apt-get upgrade
 - Na sua máquina local execute o comando: `ssh -i ~/.ssh/lightsail_key.rsa -p 2200 ubuntu@100.24.107.188`
 
 
-**References**
-- Official Ubuntu Documentation, [UFW ](https://help.ubuntu.com/community/UFW).
-- TechRepublic, [How to install and use Uncomplicated Firewall in Ubuntu](https://www.techrepublic.com/article/how-to-install-and-use-uncomplicated-firewall-in-ubuntu/).
+**Referências**
+- [UFW ](https://help.ubuntu.com/community/UFW).
+- [How to install and use Uncomplicated Firewall in Ubuntu](https://www.techrepublic.com/article/how-to-install-and-use-uncomplicated-firewall-in-ubuntu/).
 
 
 
@@ -121,9 +121,9 @@ O pacote `unattended-upgrades` pode ser usado para instalar automaticamente atua
 - Use o comando: `sudo dpkg-reconfigure --priority=low unattended-upgrades`.
 
 
-**References**
-- Official Ubuntu Documentation, [Automatic Updates](https://help.ubuntu.com/lts/serverguide/automatic-updates.html).
-- Ubuntu Wiki, [AutomaticSecurityUpdates](https://help.ubuntu.com/community/AutomaticSecurityUpdates).
+**Referências**
+- [Automatic Updates](https://help.ubuntu.com/lts/serverguide/automatic-updates.html).
+- [AutomaticSecurityUpdates](https://help.ubuntu.com/community/AutomaticSecurityUpdates).
 
 
 
@@ -159,7 +159,7 @@ digite `sudo -l` e preencha a senha novamente. Voce verá a seguinte mensagem ap
   ```
 
 **Resources**
-- DigitalOcean, [How To Add and Delete Users on an Ubuntu 14.04 VPS](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
+- [How To Add and Delete Users on an Ubuntu 14.04 VPS](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps)
 
 
 ### 8: Criando um par de chaves para o user `grader` usando `ssh-keygen` 
@@ -179,9 +179,9 @@ digite `sudo -l` e preencha a senha novamente. Voce verá a seguinte mensagem ap
 - Na máquina local: `ssh -i ~/.ssh/grader_key -p 2200 grader@100.24.107.188`.
 
 
-**References**
-- DigitalOcean, [How To Set Up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2).
-- Ubuntu Wiki, [SSH/OpenSSH/Keys](https://help.ubuntu.com/community/SSH/OpenSSH/Keys).
+**Referências**
+- [How To Set Up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2).
+- [SSH/OpenSSH/Keys](https://help.ubuntu.com/community/SSH/OpenSSH/Keys).
 
 
 
@@ -197,9 +197,9 @@ digite `sudo -l` e preencha a senha novamente. Voce verá a seguinte mensagem ap
   Universal Time is now:  Fri Oct 20 01:55:16 UTC 2017.
   ```
 
-**References**
-- Ubuntu Wiki, [UbuntuTime](https://help.ubuntu.com/community/UbuntuTime)
-- Ask Ubuntu, [How do I change my timezone to UTC/GMT?](https://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt/138442)
+**Referências**
+- [UbuntuTime](https://help.ubuntu.com/community/UbuntuTime)
+- [How do I change my timezone to UTC/GMT?](https://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt/138442)
 
 
 
@@ -256,8 +256,8 @@ digite `sudo -l` e preencha a senha novamente. Voce verá a seguinte mensagem ap
 - Saia como comando: `\q`.
 - Volte ao terminal do ubuntu com Ctrl + D
 
-**Reference**
-- DigitalOcean, [How To Secure PostgreSQL on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps).
+**Referência**
+- [How To Secure PostgreSQL on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps).
 
 
 
@@ -329,8 +329,8 @@ como authorized redirect URI.
 
 - Desative o venv: `deactivate`.
 
-**References**
-- Flask documentation, [virtualenv](http://flask.pocoo.org/docs/0.12/installation/).
+**Referências**
+- [virtualenv](http://flask.pocoo.org/docs/0.12/installation/).
 - [Create a Python 3 virtual environment](https://superuser.com/questions/1039369/create-a-python-3-virtual-environment).
 
 
